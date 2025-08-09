@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px auto;
+}
+h3 {
+    margin: 0px;
+    font-size: 21.5px;
+    font-weight: normal;
+}
+p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+div {
+    margin-bottom: 30px;
+}
+table {
+    margin: 100px auto;
+}
+table,
+table tr,
+table th,
+table td {
+    border: 1px solid #999;
+}
+table tr,
+table th,
+table td {
+    padding: 5px;
+}
+
+/* define a cor do cabeçalho THEAD  */
+thead tr {
+    background-color: #9a9a9a;
+}
+
+/* define a cor das linhas ímpares de TBODY  */
+tbody tr:nth-child(odd) {
+    background-color: rgb(207, 159, 25);
+}
+
+/* define a cor das linhas pares de TBODY  */
+tbody tr:nth-child(even) {
+    background-color: rgb(210, 255, 204);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
